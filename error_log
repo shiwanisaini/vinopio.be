@@ -1,0 +1,71 @@
+[10-May-2022 11:38:31 UTC] PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+[17-May-2022 12:23:07 UTC] PHP Fatal error:  Uncaught Error: Class 'IntlDateFormatter' not found in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php:121
+Stack trace:
+#0 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Framewo...', Array)
+#1 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#2 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(167): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#3 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(273): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'localeDate', 'Magento\\Framewo...')
+#4 /home/vinoroot/public_html/vendor/magento/fr in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121
+[24-May-2022 20:33:50 UTC] PHP Fatal error:  Uncaught Error: Class 'IntlDateFormatter' not found in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php:121
+Stack trace:
+#0 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Framewo...', Array)
+#1 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#2 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(167): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#3 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(273): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'localeDate', 'Magento\\Framewo...')
+#4 /home/vinoroot/public_html/vendor/magento/fr in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121
+[24-May-2022 20:34:36 UTC] PHP Fatal error:  Uncaught Error: Class 'IntlDateFormatter' not found in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php:121
+Stack trace:
+#0 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Framewo...', Array)
+#1 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#2 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(167): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#3 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(273): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'localeDate', 'Magento\\Framewo...')
+#4 /home/vinoroot/public_html/vendor/magento/fr in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121
+[24-May-2022 20:34:47 UTC] PHP Fatal error:  Uncaught Error: Class 'IntlDateFormatter' not found in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php:121
+Stack trace:
+#0 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Framewo...', Array)
+#1 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#2 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(167): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#3 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(273): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'localeDate', 'Magento\\Framewo...')
+#4 /home/vinoroot/public_html/vendor/magento/fr in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121
+[24-May-2022 20:35:04 UTC] PHP Fatal error:  Uncaught Error: Class 'IntlDateFormatter' not found in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php:121
+Stack trace:
+#0 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Framewo...', Array)
+#1 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#2 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(167): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#3 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(273): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'localeDate', 'Magento\\Framewo...')
+#4 /home/vinoroot/public_html/vendor/magento/fr in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121
+[25-May-2022 07:38:28 UTC] PHP Fatal error:  Uncaught Error: Class 'IntlDateFormatter' not found in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php:121
+Stack trace:
+#0 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Framewo...', Array)
+#1 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#2 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(167): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#3 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(273): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'localeDate', 'Magento\\Framewo...')
+#4 /home/vinoroot/public_html/vendor/magento/fr in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121
+[25-May-2022 16:16:00 UTC] PHP Fatal error:  Uncaught Error: Class 'IntlDateFormatter' not found in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php:121
+Stack trace:
+#0 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Framewo...', Array)
+#1 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#2 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(167): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#3 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(273): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'localeDate', 'Magento\\Framewo...')
+#4 /home/vinoroot/public_html/vendor/magento/fr in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121
+[25-May-2022 16:27:04 UTC] PHP Fatal error:  Uncaught Error: Class 'IntlDateFormatter' not found in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php:121
+Stack trace:
+#0 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Framewo...', Array)
+#1 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#2 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(167): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#3 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(273): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'localeDate', 'Magento\\Framewo...')
+#4 /home/vinoroot/public_html/vendor/magento/fr in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121
+[25-May-2022 16:27:05 UTC] PHP Fatal error:  Uncaught Error: Class 'IntlDateFormatter' not found in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php:121
+Stack trace:
+#0 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Framewo...', Array)
+#1 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#2 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(167): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#3 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(273): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'localeDate', 'Magento\\Framewo...')
+#4 /home/vinoroot/public_html/vendor/magento/fr in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121
+[26-May-2022 00:55:54 UTC] PHP Fatal error:  Uncaught Error: Class 'IntlDateFormatter' not found in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php:121
+Stack trace:
+#0 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject('Magento\\Framewo...', Array)
+#1 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create('Magento\\Framewo...')
+#2 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(167): Magento\Framework\ObjectManager\ObjectManager->get('Magento\\Framewo...')
+#3 /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(273): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument(Array, 'Magento\\Framewo...', NULL, 'localeDate', 'Magento\\Framewo...')
+#4 /home/vinoroot/public_html/vendor/magento/fr in /home/vinoroot/public_html/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 121
