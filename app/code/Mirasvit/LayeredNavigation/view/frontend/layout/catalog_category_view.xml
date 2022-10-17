@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="after.body.start">
+            <block class="Mirasvit\LayeredNavigation\Block\ApplyButton" name="apply_button" template="Mirasvit_LayeredNavigation::applyButton.phtml"/>
+        </referenceContainer>
+
+        <referenceContainer name="head.additional">
+            <block class="Mirasvit\LayeredNavigation\Block\Css" name="mst-nav.css"/>
+        </referenceContainer>
+
+        <referenceContainer name="sidebar.main">
+            <block class="Mirasvit\LayeredNavigation\Block\Navigation\FilterExpander\Category" name="mst-nav.filterExpander"/>
+        </referenceContainer>
+
+        <referenceContainer name="content">
+            <block class="Mirasvit\LayeredNavigation\Block\Ajax" name="category_ajax" template="Mirasvit_LayeredNavigation::ajax.phtml"/>
+
+            <container name="m.horizontal.navigation.container" htmlTag="div" htmlClass="mst-nav__horizontal-bar" before="-">
+                <block class="Mirasvit\LayeredNavigation\Block\NavigationHorizontal\Category" name="m.catalog.horizontal" before="-" template="Magento_LayeredNavigation::layer/view.phtml">
+                    <!-- layout name change only with Mirasvit\LayeredNavigation\Model\Config\HorizontalFilterOptions -->
+                    <block class="Mirasvit\LayeredNavigation\Block\Navigation\State" name="m.catalog.navigation.horizontal.state" as="state"/>
+
+                    <block class="Mirasvit\LayeredNavigation\Block\Renderer\FilterRenderer" name="m.catalog.navigation.horizontal.renderer" as="renderer" template="Magento_LayeredNavigation::layer/filter.phtml"/>
+                </block>
+            </container>
+        </referenceContainer>
+        <!-- <referenceContainer name="m.horizontal.navigation.container">
+            <block class="Magento\Catalog\Block\Product\ProductList\Toolbar" name="product_list_toolbar" template="Magento_Catalog::product/list/toolbar.phtml">
+                        <block class="Magento\Theme\Block\Html\Pager" name="product_list_toolbar_pager"/>
+                    </block>
+        </referenceContainer> -->
+    </body>
+</page>

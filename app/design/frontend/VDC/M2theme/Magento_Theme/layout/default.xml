@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="footer_links" remove="true"/>
+        <referenceBlock name="form.subscribe" remove="true" />
+        <move element="checkout.success.print.button" destination="order.success.additional.info" before="-"/>      
+        <move element="navigation.sections" destination="header-wrapper" after="logo" />
+        <!-- <move element="top.search" destination="header.search.cart.main" before="minicart"/> -->
+        <move element="minicart" destination="header.panel" before="-"/>
+        <move element="product.attributes" destination="product.info.main" after="product.info.price"/>
+        <referenceContainer name="page.top">
+            <container name="header.search.cart" htmlClass="header_search_cart" htmlTag="div" before="-">
+                <container name="header.search.cart.main" htmlClass="container" htmlTag="div" before="-"/>
+            </container>
+
+            <block class="Magento\Framework\View\Element\Template" after="navigation.sections" name="custom.promo.links" template="Magento_Theme::html/custom_promo.phtml"/>
+        </referenceContainer>
+       <referenceBlock name="header.links">
+            <block class="Mageplaza\Blog\Block\Link" name="add-new-header-link" before="-">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="true">Blog</argument>
+                    <argument name="path" xsi:type="string" translate="true">blog.html</argument>
+                    <argument name="sortOrder" xsi:type="number">10</argument>
+                    <argument name="class" xsi:type="string">header-blog</argument>
+                </arguments>
+            </block>
+     </referenceBlock>
+        <referenceContainer name="footer">
+            <block class="Magento\Cms\Block\Block" name="footer_block" before="copyright">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">footer_block</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

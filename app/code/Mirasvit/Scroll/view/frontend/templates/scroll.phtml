@@ -1,0 +1,16 @@
+<?php
+/** @var \Mirasvit\Scroll\Block\Scroll $block */
+if (!$block->isEnabled()) {
+    return;
+}
+$initConfig = $block->getInitConfig();
+if (!$initConfig) {
+    return;
+}
+?>
+<script type="text/x-magento-init"><?= \Zend_Json::encode($initConfig) ?></script>
+<style>
+    .pages, .toolbar-amount {
+        display: none !important;
+    }
+</style>
