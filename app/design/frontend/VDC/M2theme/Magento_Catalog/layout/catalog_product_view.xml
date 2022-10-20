@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="product.info.details">
+            <referenceBlock name="reviews.tab">
+                <arguments>
+                    <argument translate="true" name="title" xsi:type="string">recensie</argument>
+                    <argument name="sort_order" xsi:type="string">1</argument>
+                </arguments>
+            </referenceBlock>
+            <referenceBlock name="product.info.description">
+                <arguments>
+                    <argument translate="true" name="title" xsi:type="string">Omschrijving</argument>
+                </arguments>
+            </referenceBlock>
+            <referenceBlock name="related.post.tab">
+                <arguments>
+                    <argument translate="true" name="title" xsi:type="string">gerelateerd bericht</argument>
+                </arguments>
+            </referenceBlock>      
+        </referenceBlock>
+    </body>
+</page>

@@ -1,0 +1,26 @@
+{
+    "name": "amasty/module-shop-by-brand",
+    "description": "Shop by Brand by Amasty",
+    "require": {
+        "amasty/module-shop-by-base": ">=2.16.2",
+        "php": ">=7.3.0",
+        "amasty/base": ">=1.13.6"
+    },
+    "suggest": {
+        "amasty/module-shop-by-brand-graphql": "Install module-shop-by-brand-graphql module to activate GraphQl and Shop By Brand integration.",
+        "amasty/module-shopby-livesearch-root-category": "Install ShopbyLivesearchRootCategory module to activate LiveSearch and Shop By Brand integration."
+    },
+    "type": "magento2-module",
+    "version": "2.13.1",
+    "license": [
+        "Commercial"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Amasty\\ShopbyBrand\\": ""
+        }
+    }
+}
